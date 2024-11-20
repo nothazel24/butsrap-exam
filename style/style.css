@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.scrolled-projects {
+    height: 200px; 
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: scroll; 
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+  
+.scrolled-projects .d-flex {
+    flex-wrap: nowrap;
+}
+
+.scrolled-projects::-webkit-scrollbar { 
+    display: none;
+}
+  
