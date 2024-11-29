@@ -19,9 +19,26 @@ nav ul li a {
     font-weight: 450;
 }
 
+
+.btn-wrapper .btn-home {
+    border: 1px solid #252525;
+    border-radius: 8px;
+}
+
+.btn-wrapper .btn-home:hover {
+    box-shadow: 5px 4px 0px #252525;
+    padding: .4rem;
+    transition: .2s;
+}
+
+
 .pfp {
     border: 1px solid #252525;
     box-shadow: 5px 4px 0px #252525;
+}
+
+.profileTable {
+    padding: 0px 2rem;
 }
 
 table {
@@ -35,6 +52,10 @@ table {
 
 #section1 {
     border: 1px solid #252525;
+}
+
+#section1 h2 {
+    text-decoration: underline;
 }
 
 #section2 {
@@ -65,4 +86,59 @@ table {
 /* FOOTER SECTION */
 .footer-links a:hover {
     text-decoration: none;
+    background-color: var(--blue-two);
+    padding: .4rem;
+    border-radius: 5px;
+    box-shadow: 5px 4px 0px #2F2E2C;
+    transition: .2s;
+}
+
+
+/* MEDIA QUERY */
+@media only screen and (min-width: 800px) {
+
+    /* PROFILE SECTION */
+    .inner-profile {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contents p {
+        text-align: justify;
+        margin: 2rem 0px;
+    }
+
+    .inner-profile img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profileTable {
+        margin: 1.8rem auto;
+        width: 100%;
+    }
+
+    .goals1 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: end;
+    }
+
+
+    /* GOALS SECTION */
+} 
+
+@media only screen and (min-width: 900px) {
+    .inner-profile {
+        padding: 0px 5rem;
+    }
+
+    .profileTable {
+        margin: 2rem auto;
+        width: 90%;
+    }
+
+    .inner-goals {
+        padding: 5rem;
+    }
 }
