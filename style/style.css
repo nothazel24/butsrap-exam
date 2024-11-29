@@ -1,9 +1,46 @@
+:root {
+    --black-one: #050505;
+    --black-two: #2F2E2C;
+    --yellow-one: #ffc40a;
+    --yellow-two: #f8de7e;
+    --blue-one: #679BF1;
+    --blue-two: #8AB9F1;
+}
+
 * {
     margin: 0;
     padding: 0;
+    font-family: "Parkinsans";
 }
 
+
 /* HOMEPAGE */
+nav ul li a {
+    font-weight: 450;
+}
+
+.pfp {
+    border: 1px solid #252525;
+    box-shadow: 5px 4px 0px #252525;
+}
+
+table {
+    /* border: 1px solid #252525; */
+    box-shadow: 5px 4px 0px #252525;
+}
+
+#home {
+    border: 1px solid #252525;
+}
+
+#section1 {
+    border: 1px solid #252525;
+}
+
+#section2 {
+    border: 1px solid #252525;
+}
+
 
 /* SCROLLED EVENTS  */
 .scrolled-projects {
@@ -22,4 +59,10 @@
 .scrolled-projects::-webkit-scrollbar { 
     display: none;
 }
-  
+
+
+
+/* FOOTER SECTION */
+.footer-links a:hover {
+    text-decoration: none;
+}
